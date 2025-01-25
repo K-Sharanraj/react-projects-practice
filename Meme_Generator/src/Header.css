@@ -1,0 +1,17 @@
+.bar{
+    display: flex;
+    height:65px;
+    background-image: linear-gradient(to right, #672280 , #A626D3);
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+}
+
+h1{
+    size: 70px;
+    color: white;
+}
+
+img{
+    height:40px;
+}

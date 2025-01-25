@@ -1,0 +1,64 @@
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    gap:50px;
+}
+
+input{
+    border-radius: 5px;
+    border-width: 0.82px;
+    width: 222px;
+    height: 34.74px;
+}
+label{
+    padding-bottom:3px ;
+    font-size: 14px;
+}
+.Form{
+    display: flex;
+    gap:33px;
+}
+h3{
+    margin: 0px;
+    font-size: 20px;
+}
+button{
+    width: 477px;
+    height: 60px;
+    background-image: linear-gradient(to right, #672280 , #A626D3);
+    color: white;
+    font-size: medium;
+    border-radius: 5px;
+}
+
+.meme{
+    width:477px;
+    height:auto;
+    
+}
+.MemeImage{
+    position: relative;
+    margin-bottom: 50px;
+}
+.texttop{
+    position: absolute;
+    top: 50px;
+    left:50%;
+    transform: translate(-50%, 0);
+    color:white;
+    font-size: 32px;
+    text-align: center;
+}
+
+.textbottom{
+    position: absolute;
+    bottom: 50px;
+    left:50%;
+    transform: translate(-50%, 0);
+    color:white;
+    font-size:32px;
+    text-align: center;
+
+}
